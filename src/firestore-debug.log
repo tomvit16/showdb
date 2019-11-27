@@ -1,0 +1,71 @@
+API endpoint: http://localhost:8080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:8080
+
+Dev App Server is now running.
+
+Nov 18, 2019 5:05:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:05:37 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:06:33 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:06:33 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:07:13 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:07:13 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:07:53 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:07:53 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:07:53 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:07:53 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:10:53 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:10:53 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:11:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:11:34 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:15:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:15:37 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:17:53 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:17:53 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:17:54 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:17:54 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:20:53 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:20:53 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:21:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:21:34 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:25:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:25:37 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:27:53 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:27:53 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:27:54 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:27:54 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request
+Nov 18, 2019 5:30:53 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Nov 18, 2019 5:30:53 PM io.gapi.emulators.netty.NotFoundHandler handleRequest
+INFO: Unknown request URI: /bad-request

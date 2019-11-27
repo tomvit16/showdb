@@ -1,26 +1,77 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import ChatArea from './chat-area';
+import {db} from './firebase';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export default class App extends Component {
+
+
+
+
+  state = {
+  dbFirebaseoarams:   [],
+}  
+ 
+
+componentDidMount() {
+  db.collection("chatAnswer")
+    .get()
+      .then((list) => {
+          list.forEach((doc) => {
+            // console.log(doc.data());
+              this.setState(() => {
+                const {dbFirebaseoarams} = this.state;
+                const datavalue = new Date(+doc.id);
+                const newDatevalue = {
+                  year:  "" + (datavalue.getFullYear()),
+                  month: "" + (datavalue.getMonth()),
+                  day: "" + (datavalue.getDate()),
+                  hours: (datavalue.getHours()),
+                  minutes: (datavalue.getMinutes()),
+                  seconds: (datavalue.getSeconds()),
+                  text: (doc.data()),
+                }
+                const newArr = [
+                  ...dbFirebaseoarams,
+                  newDatevalue
+                ]
+                return {
+                  dbFirebaseoarams: newArr,
+                }        
+        });
+          })
+        })
+      
+     
+}
+       
+          
+    
+
+onState = () => {
+  console.log(this);
 }
 
-export default App;
+
+
+
+render () {
+
+  return (
+    <div className="App">
+       <ChatArea 
+                            guestLists={this.state.dbFirebaseoarams} 
+                            />   
+                            <button onClick={this.onState}>
+                            Click Me
+                            </button>
+
+    </div>
+  );
+
+}
+
+  
+}
+
